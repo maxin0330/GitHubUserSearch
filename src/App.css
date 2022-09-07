@@ -1,38 +1,140 @@
-.App {
+.search-bar {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.search-bar input {
+  width: 75%;
+}
+.header {
+  padding: 2rem 0rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(38, 110, 55, 0.612);
+  padding: 20px;
+  font-family: arial;
+}
+
+.userImage {
+  width: 200px;
+  padding-bottom: 1rem;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userImage1 {
+  width: 100px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
+}
+
+img.user {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+  float: left;
+}
+
+.Followers {
+  padding-bottom: 0.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Following {
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-group {
+  margin: 0 auto;
+}
+.search-out {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+.search-out h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.search-out h4,
+p {
+  font-weight: bold;
+}
+.search-out p:last-child {
+  margin-bottom: 0;
+}
+.search-info {
+  border-left-color: #5bc0de;
+}
+.search-info:hover {
+  border-left-color: #5cb85c;
+  color: #5cb85c !important;
+}
+.search-info:hover h4 {
+  color: #5cb85c !important;
+}
+.search-info:hover p {
+  color: #5cb85c !important;
+}
+.search-info h4 {
+  color: #5bc0de;
+}
+.fas {
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding-top: 30px;
+}
+small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+span {
+  color: #1597e5;
+}
+
+h4 {
+  color: orange;
+  text-align: center;
+}
+
+h5 {
+  color: plum;
+  text-align: center;
+}
+
+.follow-button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+}
+.follow-button:hover {
+  background-color: #4095c6;
 }
